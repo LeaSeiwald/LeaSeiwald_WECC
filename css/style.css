@@ -1,0 +1,110 @@
+@charset "utf-8";
+/*CSS Document*/
+body {
+    font-family: "Helvetica Neue",Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.master{
+    width: 100%;
+    border: 1px #CCC solid;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.float{
+    clear: both;
+}
+
+/*-----NAVI*/
+
+#navi{
+    background-color: #E1903E;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+
+
+#navi li{
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+}
+
+#navi li a{
+    text-decoration: none;
+    color: #2B2B23;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+#navi li a:hover{
+    background-color: #EFCE7B;
+    color: #D8560E;
+}
+
+#navi li a:active{
+    background-color: #EFCE7B;
+    color: #D8560E;
+}
+/*-------Content index----*/
+
+
+/* Zentrierte Hauptbox */
+.content_main {
+    width: 70%;                 /* oder z. B. 800px */
+    margin: 40px auto;          /* zentriert horizontal */
+    padding: 20px;
+    background-color: #D3C2CD;
+    border-radius: 15px;
+    color: #2B2B23;             /* Night Forest */
+}
+
+.content_PageLogo{
+    margin: 40px auto;
+}
+
+
+/* Wrapper für die zwei nebeneinander stehenden Boxen */
+.content_wrapper {
+    display: flex;
+    justify-content: center;    /* zentriert das Ganze auf der Seite */
+    gap: 30px;                  /* Abstand zwischen Boxen */
+    margin: auto;
+    width: 800px;
+}
+
+
+
+/* Foto Box */
+.content_FotoBox {
+    flex: 1;                    /* nimmt gleichen Platz wie rechte Box */
+    background-color: #CBD183;  /* Pistachio */
+    padding: 20px;
+    border-radius: 15px;
+    color: #2B2B23;
+}
+
+
+
+/*
+Lilac Grey: #D3C2CD
+Spring Leaves: #849E15
+Good Surf: #92A2A6
+Cold Velvet: #B28622
+Brink of Pink: #F8CABA
+Poppy: #D8560E
+Butter Yellow: #EFCE7B
+Florida Oranges: #E1903E
+Pea Flower: #6777B6
+Night Forest: #2B2B23
+Dusty Berry: #D17089
+Pistachio: #CBD183
+ */
+
