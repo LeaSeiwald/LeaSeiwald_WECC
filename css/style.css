@@ -74,23 +74,69 @@ body {
 /* Wrapper für die zwei nebeneinander stehenden Boxen */
 .content_wrapper {
     display: flex;
-    justify-content: center;    /* zentriert das Ganze auf der Seite */
-    gap: 30px;                  /* Abstand zwischen Boxen */
-    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     width: 800px;
+    margin: 40px auto;
+    border: 1px solid #555;
+    border-radius: 12px;
+    padding: 20px;
+
 }
 
-
+.foto_row {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Foto Box */
-.content_FotoBox {
-    flex: 1;                    /* nimmt gleichen Platz wie rechte Box */
+.content_FotoBoxPistachio {
+    display: flex;          /* aktiviert Flexbox IN der Fotobox */
+    justify-content: center; /* horizontal zentrieren */
+    align-items: center;                  /* nimmt gleichen Platz wie rechte Box */
     background-color: #CBD183;  /* Pistachio */
     padding: 20px;
     border-radius: 15px;
     color: #2B2B23;
 }
 
+/* Foto Box */
+.content_FotoBoxButterYellow {
+    display: flex;          /* aktiviert Flexbox IN der Fotobox */
+    justify-content: center; /* horizontal zentrieren */
+    align-items: center;                  /* nimmt gleichen Platz wie rechte Box */
+    background-color: #EFCE7B;  /* Pistachio */
+    padding: 20px;
+    border-radius: 15px;
+    color: #2B2B23;
+}
+
+/* Foto Box */
+.content_FotoBoxPeaFlower {
+    display: flex;          /* aktiviert Flexbox IN der Fotobox */
+    justify-content: center; /* horizontal zentrieren */
+    align-items: center;                 /* nimmt gleichen Platz wie rechte Box */
+    background-color: #6777B6;  /* Pistachio */
+    padding: 20px;
+    border-radius: 15px;
+    color: #2B2B23;
+}
+
+/* Foto Box */
+.content_FotoDustyBerry {
+    display: flex;          /* aktiviert Flexbox IN der Fotobox */
+    justify-content: center; /* horizontal zentrieren */
+    align-items: center;                   /* nimmt gleichen Platz wie rechte Box */
+    background-color: #D17089;  /* Pistachio */
+    padding: 20px;
+    border-radius: 15px;
+    color: #2B2B23;
+}
 
 
 /*
